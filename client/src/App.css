@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 600px;
+    border-radius: 8px;
+    border: 2px solid teal;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: teal;
+}
+
+.connectionMessage {
+    width: 300px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.message {
+    width: 300px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+}

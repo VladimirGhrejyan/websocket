@@ -1,0 +1,22 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "websocket",
+  "main": "websocket.js",
+  "scripts": {
+    "start": "nodemon websocket.js"
+  },
+  "keywords": [
+    "ws",
+    "node",
+    "react"
+  ],
+  "author": "Vladimir Ghrejyan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "ws": "^8.8.1"
+  }
+}
